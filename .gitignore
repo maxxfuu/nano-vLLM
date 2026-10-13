@@ -1,0 +1,38 @@
+# Private project guidance for Claude Code. Never commit.
+CLAUDE.local.md
+CLAUDE.md
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Model weights and HF cache
+*.safetensors
+*.bin
+*.gguf
+models/
+weights/
+.cache/
+
+# Profiler output
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.sqlite
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Scratch notebooks, never committed
+scratch/
+*.ipynb
+.ipynb_checkpoints/
